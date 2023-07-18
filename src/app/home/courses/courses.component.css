@@ -1,0 +1,211 @@
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+/* courses detail start */
+.course-colums-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.first-colum-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.img-custom{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.course-inside-content-custom{
+    padding: 10px;
+}
+.course-heading-custom{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(49, 49, 51, 0.794);
+}
+.course-status-icon-custom{
+    color: rgba(101, 101, 103, 0.65);
+    padding-top: 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.course-status-headings-custom{
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgba(101, 101, 103, 0.65);
+    font-weight: bold;    
+}
+.padding-custom{
+    padding-left: 20px;
+}
+.course-describtion-custom{
+    color: rgba(101, 101, 103, 0.65);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.course-btn-div-custom{
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.course-btn-custom-1{
+    color: white;
+    background-color: rgb(6, 5, 34);
+    font-size: 15px;
+}
+.course-btn-custom-2{
+    border: 1px solid rgb(6, 5, 34);
+    margin-left: 10px;
+    font-size: 15px;
+}
+.course-btn-custom-2:hover{
+    background-color: rgb(6, 5, 34);
+    color: white;
+}
+/* courses detail end */
+
+/* groups start */
+.last-colum-top-heading-custom{
+    font-size: 18px;
+    display: inline-flex;
+    color: rgba(49, 49, 51, 0.794);  
+}
+.creat-group-heading-custom{
+    font-size: 13px;
+    float: right;
+    color: goldenrod;
+    cursor: pointer;
+}
+.last-colum-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.last-colum-img-custom{
+    width: 40px;
+    height: 40px;
+}
+.last-colum-names-heading-custom-1{
+    font-size: 17px;
+    display: inline-flex;
+    padding-top: 2px;
+}
+.group-members-custom{
+    float: right;
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.members-color-1{
+    color: firebrick;
+}
+.members-color-2{
+    color: tomato;
+}
+.members-color-3{
+    color: dodgerblue;
+}
+.members-color-4{
+    color: limegreen;
+}
+
+.last-colum-names-heading-custom-2{
+    font-size: 13px;
+    margin-top: -7px;
+    color: rgba(113, 113, 119, 0.579);
+}
+/* groups end */
+
+/* percnet start */
+.percent-colum-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.top-perfo-img-custom{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+}
+.percent-heading-custom{
+    font-size: 15px;
+    float: right;
+    margin-top: -25px;
+}
+.performance-percent-div-custom{
+    height: 5px;
+    background-color: rgb(194, 194, 200);
+    display: inline-block;
+    width: 100%;
+}
+.percent-fill-line-custam{
+    background-color: goldenrod;
+    height: 5px;
+    border-radius: 5px;
+}
+.percentage-custom-1{
+    width: 61%;
+}
+.percentage-custom-2{
+    width: 83%;
+}
+.percentage-custom-3{
+    width: 48%;
+}
+.percentage-custom-4{
+    width: 78%;
+}
+/* percnet end */
+
+/* media quries */
+@media screen and (max-width: 1118px){
+    .course-status-headings-custom{
+        font-size: 10px;
+    }
+    .course-btn-custom-1{
+        font-size: 10px;
+    }
+    .course-btn-custom-2{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1104px){
+    .last-colum-names-heading-custom-2{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 992px){
+    .course-status-headings-custom{
+        font-size: 12px;
+    }
+    .course-btn-custom-1{
+        font-size: 15px;
+    }
+    .course-btn-custom-2{
+        font-size: 15px;
+    }
+    .group-media-custom{
+        margin-top: 50px;
+    }
+    .last-colum-names-heading-custom-2{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    .media-custom{
+        margin-top: 50px;
+    }
+    .python-media-custom{
+        margin-top: 50px;
+    }
+}

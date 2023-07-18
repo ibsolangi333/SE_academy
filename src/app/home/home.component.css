@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+.sidebar-custom{
+    margin-top: 56px; 
+    background-color: rgb(6, 5, 34); 
+}
+.router-div-custom{
+    padding-left: 70px;
+    padding-right: 20px;
+    background-color: rgb(242, 243, 249); 
+    padding-bottom: 20px;
+    min-height: 100vh; 
+}
+
+@media screen and (max-width: 992px){
+    .router-div-custom{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+.form-row-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.choose-file-custom{
+    color: rgba(143, 139, 139, 0.558);
+    font-size: 15px;
+}
+.form-custom-class{
+    border: none;
+    border-bottom: 2px solid rgba(143, 139, 139, 0.558);
+    border-radius: 0px;
+    outline: none;
+    color: black;
+    padding-bottom: 7px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+::placeholder{
+    font-size: 15px;
+    color: rgba(143, 139, 139, 0.558);
+}
+.form-error-custom{
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
+.color-select-custom{
+    font-size: 15px;
+    color: rgba(143, 139, 139, 0.558);
+}
+.submite-btn-custom{
+    background-color: rgb(6, 5, 34);
+    color: white;
+    margin-top: 20px;
+}
+.cancel-btn-custom{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid rgb(6, 5, 34);
+}
+.cancel-btn-custom:hover{
+    background-color: rgb(6, 5, 34);
+    color: white;
+}

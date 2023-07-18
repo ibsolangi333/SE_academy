@@ -1,0 +1,198 @@
+body{
+    font-family:tahoma;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.header-custom{
+    background-color: rgb(6, 5, 34);
+    position: fixed;
+    width: 100%;  
+}
+
+/* header-logo */
+.logo-div-custom{
+    display: inline-flex;
+}
+.logo-img-custom{
+    width: 50px;
+    height:50px;
+    transition: 500ms;
+}
+.logo-name-custom{
+    color: goldenrod;
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: comic sans ms;
+}
+/* header-logo-end */
+
+/* header-icoons */
+.icon-div-custom{
+    float:right;
+    display: inline-flex;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+/* notifiaction and emai */
+.header-icon-custom{
+    text-decoration:none;
+    padding: 10px;
+    color: rgb(180, 180, 187);
+    cursor: pointer;
+}
+.header-icon-custom:hover{
+    color: white;
+}
+.icon-top-number-custom{
+    width:15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 100%;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+.icon-inside-div{
+    width: 270px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    position: absolute;
+    margin-left: -248px;
+    margin-top: 5px;
+    border-radius: 3px;
+    transition: 100ms;
+}
+.heading-custom{
+    color: rgba(192, 185, 185, 0.976);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+     padding-bottom: 15px;
+}
+.outside-link-box{
+    text-decoration:none;
+    padding: 17px;
+    display: block;
+    border-top: 1px solid rgba(197, 194, 194, 0.459);
+}
+.outside-link-box:hover{
+    background-color: rgba(172, 172, 179, 0.301);
+}
+.inside-icon-custom{
+    color: white;
+    padding: 13px;
+    border-radius: 100px;
+}
+.email-img-custom{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid rgba(152, 152, 159, 0.529);   
+}
+.icon-inside-heading-custom-1{
+    position: absolute;
+    padding-left: 10px;
+    color: rgba(41, 40, 40, 0.898);
+    font-size: 15px;
+    font-weight: bold;
+}
+.icon-inside-heading-custom-2{
+    position: absolute;
+    margin-top: 23px;
+    padding-left: 10px;
+    color: rgba(192, 185, 185, 0.976);
+    font-size: 15px;
+}
+.email-custom{
+    position: absolute;
+    margin-top: 32px;
+    padding-left: 10px;
+    color: rgba(192, 185, 185, 0.976);
+    font-size: 15px;
+}
+.email-icon-inside-heading-custom-1{
+    position: absolute;
+    padding-left: 10px;
+    color: rgba(41, 40, 40, 0.898);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -11px;
+}
+.email-icon-inside-heading-custom-2{
+    position: absolute;
+    margin-top: 12px;
+    padding-left: 10px;
+    color: rgba(192, 185, 185, 0.976);
+    font-size: 15px;
+}
+/* notifiaction and emai end */
+
+/* user */
+.user-icon-inside-div{
+    width: 190px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    position: absolute;
+    margin-left: -170px;
+    margin-top: 5px;
+    border-radius: 3px;
+    transition: 100ms;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.user-outside-link-box{
+    text-decoration:none;
+    padding: 8px;
+    padding-left: 20px;
+    display: block;
+}
+.user-outside-link-box:hover{
+    background-color: rgba(172, 172, 179, 0.301);
+}
+.user-inside-icon-custom{
+    color: black;
+    border-radius: 100px;
+}
+.user-icon-inside-heading-custom{
+    color:rgba(41, 40, 40, 0.898);
+    font-size: 15px;
+    position: absolute;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+/* user end */
+
+/* header-icons-end */
+.search-div-custom{
+    width:100%;
+    padding-bottom: 28px;
+    transition: 1s;
+}
+.form-custom{
+    padding: 14px;
+    width: 100%;
+    border: none;
+    outline:none;
+    box-shadow: 0px 0px 10px 0px black;   
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-hide-btn-custom{
+    float:right;
+    margin-left: 95%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* media queries */
+@media screen and (max-width: 992px){
+    .logo-img-custom{
+       margin-left: 25px;       
+    }   
+};

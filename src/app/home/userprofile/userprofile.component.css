@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+/* edit profile */
+.user-profile-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.edit-profile-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);    
+}
+.edit-p-heading-div-custom{
+    padding: 15px;
+    background-color: rgb(6, 5, 34);
+    border-radius: 5px;
+    margin-top: -30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.733)
+}
+.edit-profile-heading-custom{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.806);
+}
+.edit-p-bottom-heading-custom{
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 15px;
+}
+.edit-forms-colums-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.disbled-input-custom{
+    border: none;
+    border-bottom: 2px dashed rgba(143, 139, 139, 0.558);
+    border-radius: 0px;
+    outline: none;
+    color: black;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+.edit-inputs-custom{
+    border: none;
+    border-bottom: 2px solid rgba(143, 139, 139, 0.558);
+    border-radius: 0px;
+    outline: none;
+    color: black;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+::placeholder{
+    font-size: 15px;
+    color: rgba(143, 139, 139, 0.558);
+}
+.update-btn-custom{
+    background-color: rgb(6, 5, 34);
+    color: rgba(255, 255, 255, 0.806);
+    font-size: 15px;
+    padding: 5px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.invalid-error-custm{
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+/* edit profile end */
+
+/* user ceo start */
+.user-ceo-colum-custom{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.user-ceo-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+    text-align: center;
+}
+.user-ceo-img-custom{
+    width: 102px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.47);
+    margin-top: -50px;
+}
+.user-ceo-heading-custom{
+    color: rgba(143, 139, 139, 0.558);
+    font-size: 13px;   
+    font-weight: lighter;
+}
+.user-ceo-name-custom{
+    color: rgba(62, 60, 60, 0.763);
+    font-size: 17px;   
+}
+.user-ceo-bio-custom{
+    color: rgba(143, 139, 139, 0.558);
+}
+.user-ceo-btn-custom{
+    background-color: rgb(6, 5, 34);
+    color: rgba(255, 255, 255, 0.806);
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* user ceo end */
+
+/* media quries */
+@media screen and (max-width: 992px){
+    .user-ceo-colum-custom{
+        margin-top: 40px;
+    }
+}

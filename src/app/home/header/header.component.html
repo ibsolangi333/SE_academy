@@ -1,0 +1,97 @@
+
+<div class="header-custom">
+    <!-- header-log -->
+    <div class="logo-div-custom">
+        <img src="./assets/header/logo.png" class="logo-img-custom">
+        <span class="logo-name-custom">SE-accademy</span>
+    </div>
+    <!-- header-logo-end -->
+    <!-- header-icons -->
+    <div class="icon-div-custom">
+        <span class="header-icon-custom">
+            <i class="fa fa-search" aria-hidden="true" (click)="searchdisplay()"></i>
+        </span>
+        <!-- notification -->
+        <span class="header-icon-custom">
+            <i class="fa fa-bell" aria-hidden="true" (click)="notifiction()">
+                <span class="icon-top-number-custom text-center">3</span>
+            </i>
+            <div class="icon-inside-div" [style.display]="displaynotification">
+                <h1 class="heading-custom">Notifications</h1>
+                <a href="" class="outside-link-box">
+                    <i class="fa fa-wrench inside-icon-custom bg-info" aria-hidden="true"></i>
+                    <span class="icon-inside-heading-custom-1">Update</span>
+                    <span class="icon-inside-heading-custom-2">10:21 pm</span>
+                </a>
+                <a href="" class="outside-link-box">
+                    <i class="fa fa-link inside-icon-custom bg-success" aria-hidden="true"></i>
+                    <span class="icon-inside-heading-custom-1">Launch Admin</span>
+                    <span class="icon-inside-heading-custom-2">11:43 pm</span>
+                </a>
+                <a href="" class="outside-link-box">
+                    <i class="fa fa-cogs inside-icon-custom bg-danger" aria-hidden="true"></i>
+                    <span class="icon-inside-heading-custom-1">Settings</span>
+                    <span class="icon-inside-heading-custom-2">3:37 am</span>
+                </a>
+            </div>
+        </span>
+        <!-- notification-end -->
+        <!-- email -->
+        <span class="header-icon-custom">
+            <i class="fa fa-envelope" aria-hidden="true" (click)="email()">
+                <span class="icon-top-number-custom text-center">3</span>
+            </i>
+            <div class="icon-inside-div" [style.display]="displayemail">
+                <h1 class="heading-custom">Email</h1>
+                <a href="" class="outside-link-box">
+                    <img src="./assets/header/person.jpg" class="email-img-custom">
+                    <span class="email-icon-inside-heading-custom-1">Muhammad Ibrahim</span>
+                    <span class="email-icon-inside-heading-custom-2">ABCD444@gmail.com</span>
+                    <span class="email-custom">11:01 am</span>
+                </a>
+                <a href="" class="outside-link-box">
+                    <img src="./assets/header/person.jpg" class="email-img-custom">
+                    <span class="email-icon-inside-heading-custom-1">Muhammad Ibrahim</span>
+                    <span class="email-icon-inside-heading-custom-2">ABCD444@gmail.com</span>
+                    <span class="email-custom">10:00 pm</span>
+                </a>
+                <a href="" class="outside-link-box">
+                    <img src="./assets/header/person.jpg" class="email-img-custom">
+                    <span class="email-icon-inside-heading-custom-1">Muhammad Ibrahim</span>
+                    <span class="email-icon-inside-heading-custom-2">ABCD444@gmail.com</span>
+                    <span class="email-custom">9:33 am</span>
+                </a>
+            </div>
+        </span>
+        <!-- email-end -->
+        <!-- user -->
+        <span class="header-icon-custom" style="padding-right: 20px;"(click)="user()">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <div class="user-icon-inside-div" [style.display]="displayuser">
+                <a href="" class="user-outside-link-box">
+                    <i class="fa fa fa-cog user-inside-icon-custom" aria-hidden="true"></i>
+                    <span class="user-icon-inside-heading-custom">settings</span>
+                </a>
+                <a href="" class="user-outside-link-box">
+                    <i class="fa fa-bell-slash user-inside-icon-custom" aria-hidden="true"></i>
+                    <span class="user-icon-inside-heading-custom">disable notification</span>
+                </a>
+                <a href="" class="user-outside-link-box">
+                    <i class="fa fa-sign-out user-inside-icon-custom" aria-hidden="true"></i>
+                    <span class="user-icon-inside-heading-custom">sign out</span>
+                </a>
+            </div>
+        </span>
+        <!-- user end -->
+    </div>
+        <!-- header-icons-end -->
+</div>
+<!-- header-search -->
+<div *ngIf="displaysearch" class="fixed-top search-div-custom">
+    <input type="text" placeholder="search" class=" form-custom">
+    <span class="search-hide-btn-custom fixed-top">
+        <i class="fa fa-times" (click)="hidesearch()" aria-hidden="true"></i>
+    </span>
+</div>
+<!-- header-search-end -->
+

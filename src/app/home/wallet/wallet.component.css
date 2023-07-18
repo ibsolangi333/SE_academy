@@ -1,0 +1,196 @@
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+.profile-vsitor-chart-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profile-visitor-chart-div-custom{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.profile-visitor-heading-custom{
+    font-size: 18px;
+    color: rgb(100, 100, 103);
+} 
+
+/* top sale start */
+.top-sale-top-heading-custom{
+    font-size: 18px;
+    color: rgba(49, 49, 51, 0.794);  
+}
+.top-sale-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.top-sale-colum-img-custom{
+    width: 40px;
+    height: 40px;
+}
+.top-sale-names-heading-custom-1{
+    font-size: 17px;
+    display: inline-flex;
+    padding-top: 2px;
+}
+.top-sale-numbers-custom{
+    float: right;
+    margin-top: 14px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgba(49, 49, 51, 0.794);
+}
+.top-sale-names-heading-custom-2{
+    font-size: 13px;
+    margin-top: -7px;
+    color: rgba(113, 113, 119, 0.579);
+}
+/* top sale end */
+
+/* my balance start */
+.balance-top-heading-custom{
+    font-size: 18px;
+    color: rgba(49, 49, 51, 0.794);    
+}
+.balance-out-div-custom{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);    
+}
+.available-blance-out-div-custom{
+    background-color: rgb(6, 5, 34);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.available-balance-heading-1{
+    font-size: 15px;
+    color: rgba(139, 139, 143, 0.721);
+}
+.available-balance-heading-2{
+    font-size: 25px;
+    font-weight: bold;
+    color: goldenrod;
+    display: inline-flex;
+}
+.fa-arrow-up{
+    font-size: 15px;
+    color: dodgerblue;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.fa-arrow-down{
+    font-size: 15px;
+    color: pink;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.color-custom{
+    color: rgba(255, 255, 255, 0.652);
+}
+.balance-percent-div-custom{
+    background-color: rgba(255, 255, 255, 0.652);
+    height: 5px;
+    margin-top: 10px;
+}
+.percent-number-custom{
+    font-size: 15px;
+    color: white;
+    float: right;
+    margin-top: -20px;
+}
+.percent-fill-custom-1{
+    width: 50%;
+    height: 5px;
+    background-color: goldenrod;
+}
+.percent-fill-custom-2{
+    width: 73%;
+    height: 5px;
+    background-color: goldenrod;
+}
+/* my balance end */
+
+/* payout withdrawal start */
+.payout-top-heading-custom{
+    font-size: 18px;
+    color: rgba(49, 49, 51, 0.794);
+    display: inline-flex;   
+}
+.metthod-heading-custom{
+    font-size: 13px;
+    float: right;
+    font-weight: bold;
+    color: goldenrod;
+    cursor: pointer;
+ }
+.payout-out-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 7px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.payout-names-heading-custom-1{
+    font-size: 17px;
+    display: inline-flex;
+    padding-top: 2px;
+    color: goldenrod;
+}
+.payout-btn-custom{
+    float: right;
+    margin-top: 5px;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(6, 5, 34);
+}
+.payout-heading-custom-2{
+    font-size: 13px;
+    margin-top: -7px;
+    color: rgba(113, 113, 119, 0.579);
+}
+.fa-check{
+    padding: 13px;
+    background-color: rgba(0, 98, 255, 0.412);
+    border-radius: 50px;
+    color: blue;
+}
+.fa-times{
+    padding: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(238, 149, 164, 0.556);
+    border-radius: 50px;
+    color: rgb(211, 45, 72);
+}
+.fa-question{
+    background-color: rgba(17, 173, 46, 0.407);
+    color: green;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* payout withdrawal end */
+
+/* media quries */
+@media screen and (max-width: 992px){
+   .top-sale-media{
+       margin-top: 40px;
+   }
+    .payout-media{
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+    /* status row */
+.status-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.status-top-custom{
+    padding: 22px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.status-icon-custom{
+    background-color: rgb(6, 5, 34);
+    color: rgb(155, 155, 158);
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px black;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.statu-name-custom{
+    color: rgb(100, 100, 103);
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.status-name-heading-custom{
+    font-size: 15px;
+    font-family: tahoma;
+    color: rgba(100, 100, 103, 0.676);
+}
+.extra-student{
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.extra-course{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.extra-trainer{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* status row end */
+    /* chart and comments row */
+    /* chart colum */
+.earning-chart-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.earning-chart-div-custom{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.earning-heading-custom{
+    font-size: 18px;
+    color: rgb(100, 100, 103);
+} 
+/* chart colum end */
+
+/* recent notification colum */
+.recent-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.recent-div-custom{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.recent-heading-custom{
+    font-size: 18px;
+    display: inline-flex;
+    color: rgb(100, 100, 103);
+}
+.recent-btn-custom{
+    float: right;
+    display: inline-flex;
+    padding: 5px;
+    background-color: rgb(6, 5, 34);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.recent-inside-div{
+    margin-top: 10px;
+    background-color: white;
+    border-bottom: 1px solid rgba(197, 194, 194, 0.459); 
+}
+.recent-top-custom{
+    padding: 21px;
+    background-color: white;
+    border-radius: 5px;
+}
+.recent-icon-custom{
+    color: white;
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 100%;
+}
+.recent-name-custom{
+    color: rgb(100, 100, 103);
+    font-size: 18px;
+    padding-left: 10px;
+}
+.recent-name-heading-custom{
+    font-size: 15px;
+    font-family: tahoma;
+    color: rgba(100, 100, 103, 0.676);
+}
+.recent-timing-custom{
+    float: right;
+    margin-top: -50px;
+    padding-right: 20px;
+    color: rgba(100, 100, 103, 0.676);
+    font-size: 14px;
+}
+/* recent colum end */
+
+/* student queries  */
+.student-queries-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.student-quries-inside-div-custom{
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.queriess-div{
+    padding-bottom: 17.7px;
+    border-bottom: 1px solid rgba(197, 194, 194, 0.459); 
+}
+.std-quries-top-heading-custom{
+    font-size: 18px;
+    color: rgb(100, 100, 103);
+}
+.std-qries-img-custom{
+    width: 52px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid rgba(152, 152, 159, 0.529);
+    margin-left: 20px;
+}
+.img-heading-custom{
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(100, 100, 103);
+}
+.img-name-custom{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(104, 103, 110, 0.621);
+}
+.delete-and-accept-div{ 
+    float: right;
+    padding-right: 20px;
+    margin-top: -35px;
+}
+.delete-btn{
+    border-radius: 100%;
+    background-color: rgba(53, 207, 53, 0.33);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: rgba(0, 128, 0, 0.625);
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;  
+    font-weight: lighter; 
+}
+.delete-btn:hover{
+    background-color: rgba(53, 207, 53, 0.476);
+}
+.accept-btn{
+    border-radius: 100%;
+    background-color: rgba(231, 53, 53, 0.319);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: rgba(255, 94, 0, 0.681);
+    cursor: pointer;
+    font-size: 15px;
+}
+.accept-btn:hover{
+    background-color: rgba(231, 53, 53, 0.464);
+}
+/* student queries end */
+
+/* balance colum */
+.balance-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.balance-inside-div-custom{
+    background-color: white;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.balance-top-heading-custom{
+    font-size: 18px;
+    color: rgb(100, 100, 103);
+}
+.avlbe-blnce-heading-custom{
+    font-size: 15px;
+    color: rgba(100, 100, 103, 0.52);
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.avlbe-blnce-custom{
+    padding-left: 5px;
+    color: goldenrod;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.blnce-info-div-custom{
+    background-color: rgb(6, 5, 34);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.blnce-info-heading-1-custom{
+    font-size: 15px;
+    color: rgba(100, 100, 103, 0.664);
+    display: inline-flex;
+}
+.blnce-info-heading-2-custom{
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+.blnce-go-icon-custom{
+    float: right;
+    color: rgb(6, 5, 34);;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgba(208, 208, 213, 0.461);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blnce-go-icon-custom:hover{
+    background-color: transparent;
+    border: 1px solid rgba(208, 208, 213, 0.461);
+    color: rgba(208, 208, 213, 0.461);
+}
+/* balance colum end */
+
+    /* media queries */
+    @media screen and (max-width: 992px){
+        .balance-colum-custom{
+            margin-top: 40px;
+        }
+        .recent-colum-custom{
+            margin-top: 40px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+.forms-out-div-custom{
+    padding: 15px;
+    padding-bottom: 25px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.teachers-form-colum-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.teachers-input-custom{
+    border: none;
+    border-bottom: 2px solid rgba(143, 139, 139, 0.558);
+    border-radius: 0px;
+    outline: none;
+    color: black;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+::placeholder{
+    font-size: 15px;
+    color: rgba(143, 139, 139, 0.558);
+}
+.teachers-form-add-btn-custom{
+    border: none;
+    outline: none;
+    background-color: rgb(6, 5, 34);
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.form-error-custom{
+    font-size: 15px;
+    color: red;
+}
+.sallery-color-custom{
+    color: goldenrod;
+    font-weight: bold;
+}
+ /* tachers data table  */
+.teacher-table-custom{
+    padding: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);   
+}
+thead{
+    background-color: rgb(6, 5, 34);
+    color: rgba(255, 255, 255, 0.806);
+}
+.teachers-table-img-custom{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 0px;
+}
+td{
+    font-size: 15px; 
+    color: rgba(0, 0, 0, 0.566);
+    font-weight: bold;
+}
+.edit-btn-custom{
+    margin-left: 0px;
+    color: rgba(0, 128, 0, 0.791);
+    cursor: pointer;
+    font-size: 18px;
+}
+.delete-btn-custom{
+    margin-left:20px; 
+    color:rgba(255, 0, 0, 0.8); 
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 0px;
+}
+ /* tachers data table end  */
+ .display-class{
+     display: none;
+ }
+.teacher-table-custom-2{
+    padding: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+}
+.taecher-table-2-headings-custom{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(98, 97, 102);
+    border-right: 2px solid rgb(98, 97, 102);
+    padding: 2;
+    padding-right: 15px;
+}
+.taecher-table-2-data-custom{
+    font-size: 15px;
+    color: rgb(98, 97, 102);
+    font-weight: bold;    
+}
+.table-2-inside-data{
+    margin-left: 10px;
+    padding-left: 15px;
+    border-left: 2px solid rgb(98, 97, 102);
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* media quries */
+@media screen and (max-width: 1200px){
+    .teacher-table-custom{
+        display: none;
+    }
+    .display-class{
+        display: block;
+    }
+}

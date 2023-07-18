@@ -1,0 +1,126 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <i class="fa fa-bars toggler-icon-custom" (click)="toggler()"  aria-hidden="true"></i>
+            <!-- sidebar  -->
+            <div style="position: fixed;">
+                <ul class="sidebar-links-ul-custom sidebar-out-div-custom-2">
+                <!-- sidebar dashboard link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="" 
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-tachometer" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Dashboard</span>    
+                    </li>
+                <!-- sidebar user profile link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="userprofile" 
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">User profile</span>
+                    </li>
+                    <!-- sidebar teacher info link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="teachers" 
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Teacher info</span>    
+                    </li>
+                    <!-- hide sidebar course link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="courses"
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Courses</span>
+                    </li>
+                    <!--  sidebar wallet link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="wallet"
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-suitcase" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Wallet</span>    
+                    </li>
+                    <!--  sidebar upload link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="upload"
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Upload</span>    
+                    </li>
+                    <!-- sidebar board link code -->
+                    <li class="sidebar-links-ul-li-custom" routerLink="board" 
+                    routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+                        <i class="fa fa-align-center" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Board</span>    
+                    </li>
+                </ul>
+            </div>
+            <!-- hide sidebar -->
+            <div style="position: fixed;" [style.margin-left]="togglemargin" class="sidebar-out-div-custom">
+                <!-- sidebar dashboard link code -->
+                <ul class="sidebar-links-ul-custom">
+                    <li 
+                    class="sidebar-links-ul-li-custom" 
+                    routerLink=""
+                    routerLinkActive="active" 
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="dashboardfun()">
+                        <i class="fa fa-tachometer" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Dashboard</span>    
+                    </li>
+                <!-- sidebar user profile link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" 
+                    routerLink="userprofile"
+                    routerLinkActive="active" 
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="userprofilefun()">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">User profile</span>    
+                    </li>
+                <!-- sidebar teacher info link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" 
+                    routerLink="teachers"
+                    routerLinkActive="active" 
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="teachersfun()">
+                        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Teacher info</span>    
+                    </li>
+                <!-- sidebar courses link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" routerLink="courses" 
+                    routerLinkActive="active" 
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="coursesfun()">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Courses</span>   
+                    </li>
+                    <!-- sidebar wallet link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" routerLink="wallet"
+                    routerLinkActive="active" 
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="walletfun()">
+                        <i class="fa fa-suitcase" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Wallet</span>    
+                    </li>
+                    <!--  sidebar upload link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" 
+                    routerLink="upload"
+                    routerLinkActive="active"
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="uploadfun()">
+                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Upload</span>    
+                    </li>
+                    <!-- sidebar board link code -->
+                    <li 
+                    class="sidebar-links-ul-li-custom" routerLink="board"
+                    routerLinkActive="active"
+                    [routerLinkActiveOptions]={exact:true}
+                    (click)="boardfun()">
+                        <i class="fa fa-align-center" aria-hidden="true"></i>
+                        <span class="sidebar-links-name-custom">Board</span>    
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+</div>

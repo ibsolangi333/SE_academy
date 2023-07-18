@@ -1,0 +1,145 @@
+.top-page-name-custom{
+    font-size: 20px;
+    color: rgb(170, 170, 179);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+ /* board table horizental start */
+.board-horizental-row-custom{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+    padding-top: 15px;
+    padding-bottom: 8px;
+    margin-top: 35px;
+}
+.board-horizental-row-custom:hover{
+    background-color: rgb(6, 5, 34);
+}
+.board-top-heading-custom{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(76, 76, 80);
+}
+.board-img-custom{
+    width: 40px;
+    height: 40px;
+}
+.course-name-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.category-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+}
+.ranking-icon-custom{
+    font-size: 15px;
+    color: goldenrod;
+    padding-top: 14px;
+}
+.ranking-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-top: 12px;
+    padding-left: 3px;
+}
+.impression-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-top: 12px;
+}
+.sales-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-top: 12px;
+}
+.earning-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-top: 12px;
+    color: goldenrod;
+}
+/* board table horizental end */
+
+.verticle-row-custom{
+    display: none;
+}
+.board-verticle-colum-custom{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.346);
+    padding-top: 15px;
+    padding-bottom: 8px;
+    margin-top: 35px;
+}
+.board-verticle-img-custom{
+    width: 50px;
+    height: 50px;
+}
+.boars-verticle-heading-custom{
+    font-size: 17px;
+    color: rgb(76, 76, 80);
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.board-verticle-heading-custom{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(76, 76, 80);
+    border-right: 2px solid rgb(76, 76, 80);
+    padding-right: 10px;
+}
+.verticle-category-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-left: 10px;
+}
+.verticle-ranking-icon-custom{
+    color: goldenrod;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+.verticle-ranking-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-left: 10px;
+}
+.verticle-impression-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-left: 10px;
+}
+.verticle-sales-heading-custom{
+    font-size: 15px;
+    color: rgba(159, 159, 165, 0.696);
+    padding-left: 10px;
+}
+.verticle-earning-heading-custom{
+    font-size: 15px;
+    color: goldenrod;
+    padding-left: 10px;
+}
+
+/* media quries */
+@media screen and (max-width: 1130px){
+    .board-horizental-row-custom{
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 1130px){
+    .board-horizental-row-custom{
+        display: none;
+    }
+    .heading-row{
+        display: none;
+    }
+    .verticle-row-custom{
+        display: block;
+    }
+}
